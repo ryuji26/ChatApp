@@ -16,6 +16,8 @@
 		46B0A72C274A3C3800D42786 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A72B274A3C3800D42786 /* ChatAppTests.swift */; };
 		46B0A736274A3C3800D42786 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A735274A3C3800D42786 /* ChatAppUITests.swift */; };
 		46B0A738274A3C3800D42786 /* ChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A737274A3C3800D42786 /* ChatAppUITestsLaunchTests.swift */; };
+		46B0A749274A3DDF00D42786 /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B0A748274A3DDF00D42786 /* ChatList.storyboard */; };
+		46B0A74B274A3E0900D42786 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A74A274A3E0800D42786 /* ChatListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		46B0A731274A3C3800D42786 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B0A735274A3C3800D42786 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		46B0A737274A3C3800D42786 /* ChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46B0A748274A3DDF00D42786 /* ChatList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatList.storyboard; sourceTree = "<group>"; };
+		46B0A74A274A3E0800D42786 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				46B0A716274A3C3600D42786 /* SceneDelegate.swift */,
 				46B0A718274A3C3600D42786 /* ViewController.swift */,
 				46B0A71A274A3C3600D42786 /* Main.storyboard */,
+				46B0A74A274A3E0800D42786 /* ChatListViewController.swift */,
+				46B0A748274A3DDF00D42786 /* ChatList.storyboard */,
 				46B0A71D274A3C3800D42786 /* Assets.xcassets */,
 				46B0A71F274A3C3800D42786 /* LaunchScreen.storyboard */,
 				46B0A722274A3C3800D42786 /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				46B0A721274A3C3800D42786 /* LaunchScreen.storyboard in Resources */,
 				46B0A71E274A3C3800D42786 /* Assets.xcassets in Resources */,
+				46B0A749274A3DDF00D42786 /* ChatList.storyboard in Resources */,
 				46B0A71C274A3C3600D42786 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				46B0A719274A3C3600D42786 /* ViewController.swift in Sources */,
 				46B0A715274A3C3600D42786 /* AppDelegate.swift in Sources */,
+				46B0A74B274A3E0900D42786 /* ChatListViewController.swift in Sources */,
 				46B0A717274A3C3600D42786 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +452,7 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ChatList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +480,7 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ChatList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
