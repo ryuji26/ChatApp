@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		46B0A715274A3C3600D42786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A714274A3C3600D42786 /* AppDelegate.swift */; };
-		46B0A717274A3C3600D42786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A716274A3C3600D42786 /* SceneDelegate.swift */; };
 		46B0A719274A3C3600D42786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0A718274A3C3600D42786 /* ViewController.swift */; };
 		46B0A71C274A3C3600D42786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B0A71A274A3C3600D42786 /* Main.storyboard */; };
 		46B0A71E274A3C3800D42786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B0A71D274A3C3800D42786 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		46B0A711274A3C3600D42786 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B0A714274A3C3600D42786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46B0A716274A3C3600D42786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46B0A718274A3C3600D42786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46B0A71B274A3C3600D42786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46B0A71D274A3C3800D42786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				46B0A714274A3C3600D42786 /* AppDelegate.swift */,
-				46B0A716274A3C3600D42786 /* SceneDelegate.swift */,
 				46B0A718274A3C3600D42786 /* ViewController.swift */,
 				46B0A71A274A3C3600D42786 /* Main.storyboard */,
 				46B0A74A274A3E0800D42786 /* ChatListViewController.swift */,
@@ -268,7 +265,6 @@
 				46B0A719274A3C3600D42786 /* ViewController.swift in Sources */,
 				46B0A715274A3C3600D42786 /* AppDelegate.swift in Sources */,
 				46B0A74B274A3E0900D42786 /* ChatListViewController.swift in Sources */,
-				46B0A717274A3C3600D42786 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

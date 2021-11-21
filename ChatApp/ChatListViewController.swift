@@ -19,7 +19,7 @@ class ChatListViewController: UIViewController {
 }
 
 class ChatListTableViewCell: UITableViewCell {
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
     }
