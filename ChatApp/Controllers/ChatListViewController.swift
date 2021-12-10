@@ -52,6 +52,12 @@ extension ChatListViewController: UITableViewDataSource {
         return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("tapped")
+        let storyboard = UIStoryboard.init(name: "ChatRoom", bundle: nil)
+        let chatRoomViewController = storyboard.instantiateViewController(withIdentifier: "ChatRoomViewController")
+        navigationController?.pushViewController(chatRoomViewController, animated: true)
+    }
 
 }
 
